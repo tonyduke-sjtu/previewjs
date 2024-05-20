@@ -10,6 +10,7 @@
     "@previewjs/plugin-vue2": "workspace:*",
     "@previewjs/plugin-vue3": "workspace:*",
     "@previewjs/pro": "^1.15.2",
-    "@previewjs/vfs": "workspace:*"
+    "@previewjs/vfs": "workspace:*",
+    "@previewjs/storybook-helpers": "workspace:*"
   }
 }
