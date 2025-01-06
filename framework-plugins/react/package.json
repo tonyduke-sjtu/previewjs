@@ -1,6 +1,6 @@
 {
   "name": "@previewjs/plugin-react",
-  "version": "16.0.1",
+  "version": "17.1.0",
   "license": "MIT",
   "author": {
     "name": "François Wouts",
@@ -23,21 +23,22 @@
     "e2e-test": "playwright test"
   },
   "dependencies": {
-    "@previewjs/analyzer-react": "^0.1.8",
-    "@vitejs/plugin-react": "^4.2.1"
+    "@previewjs/analyzer-react": "^0.1.11",
+    "@vitejs/plugin-react": "^4.3.4",
+    "esbuild-plugin-polyfill-node": "^0.3.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.43.1",
+    "@playwright/test": "^1.49.1",
     "@previewjs/api": "workspace:*",
     "@previewjs/core": "workspace:*",
     "@previewjs/iframe": "workspace:*",
     "@previewjs/testing": "workspace:*",
-    "@types/react": "^18.3.2",
-    "@types/react-dom": "^18.3.0",
-    "pino": "^8.21.0",
-    "pino-pretty": "^11.0.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "pino": "^9.5.0",
+    "pino-pretty": "^11.2.1",
     "react": "^18.3.1",
     "unbuild": "^2.0.0",
-    "vite": "^5.2.11"
+    "vite": "^6.0.5"
   }
 }

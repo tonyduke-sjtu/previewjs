@@ -15,13 +15,13 @@
   "homepage": "https://previewjs.com",
   "type": "module",
   "scripts": {
-    "build": "cd ../../.. && turbo run build --scope=@previewjs/daemon --no-deps --include-dependencies && cd integrations/intellij/daemon && rimraf dist && tsc && node esbuild.js"
+    "build": "cd ../../.. && turbo run build --filter=@previewjs/daemon && cd integrations/intellij/daemon && rimraf dist && tsc && node esbuild.js"
   },
   "devDependencies": {
     "@previewjs/daemon": "workspace:*",
     "@previewjs/loader": "workspace:*",
-    "esbuild": "^0.21.3",
-    "rimraf": "^5.0.7",
-    "typescript": "^5.4.5"
+    "esbuild": "^0.24.2",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.7.2"
   }
 }

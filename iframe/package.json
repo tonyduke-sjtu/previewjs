@@ -1,6 +1,6 @@
 {
   "name": "@previewjs/iframe",
-  "version": "17.1.0",
+  "version": "18.0.0",
   "license": "AGPL-3.0",
   "author": {
     "name": "François Wouts",
@@ -21,10 +21,10 @@
     "build": "tsc && unbuild"
   },
   "devDependencies": {
-    "assert-never": "^1.2.1",
+    "assert-never": "^1.4.0",
     "immer": "^10.1.1",
-    "typescript": "^5.4.5",
+    "typescript": "^5.7.2",
     "unbuild": "^2.0.0",
-    "vite": "^5.2.11"
+    "vite": "^6.0.5"
   }
 }
